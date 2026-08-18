@@ -4,9 +4,9 @@
 %}
 
 %%
-'a' {return 'a';}
-'b' {return 'b';}
-'c' {return 'c';}
+a {return 'a';}
+b {return 'b';}
+c {return 'c';}
 \n {return '\n';}
 [ \t] {}
 . {return yytext[0];}
