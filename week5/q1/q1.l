@@ -6,8 +6,8 @@ using namespace std;
 %}
 
 %%
-'0' {return '0';}
-'1' {return '1';}
+0 {return '0';}
+1 {return '1';}
 \n {return '\n';}
 [ \t] {}
 . {return yytext[0];}
